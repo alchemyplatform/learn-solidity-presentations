@@ -1,0 +1,21 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "test/Example.t.sol",
+    "id": 8090,
+    "exportedSymbols": {},
+    "nodeType": "SourceUnit",
+    "src": "326:0:2",
+    "nodes": [],
+    "license": "UNLICENSED"
+  },
+  "id": 2
+}
