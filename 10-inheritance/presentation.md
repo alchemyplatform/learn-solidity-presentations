@@ -112,7 +112,7 @@ contract Example is Ownable {
 
   // think of virtual and override as compliments,
   // we can override this method because it is declared as virtual in the base contract
-  function transferOwner(address newOwner) public override {
+  function transferOwner(address newOwner) public override onlyOwner {
     address oldOwner = owner;
     // call the function on the base or parent contract, Ownable
     super.transferOwner(newOwner);

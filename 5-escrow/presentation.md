@@ -29,7 +29,7 @@ contract Escrow {
   function approve() external {
     // ...
 
-    emit Event(address(this).balance);
+    emit Approved(address(this).balance);
   }
 }
 ```
