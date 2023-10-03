@@ -1,17 +1,17 @@
 {
   "abi": [],
   "bytecode": {
-    "object": "0x60806040526000805460ff1990811660ff179091556016600190815560028054909216607f179091556036196003556004805461ffff19169091179055348015604757600080fd5b50603f8060556000396000f3fe6080604052600080fdfea26469706673582212200fe502d1967a668bbdad10d0d961fcd8e872ee644739c20edb5fa608dcfdadb764736f6c63430008140033",
-    "sourceMap": "98:298:18:-:0;;;121:13;;;-1:-1:-1;;121:13:18;;;131:3;121:13;;;;164:2;-1:-1:-1;152:14:18;;;188:12;;;;;;197:3;188:12;;;;-1:-1:-1;;221:14:18;;259:23;;;-1:-1:-1;;368:25:18;;;;;;98:298;;;;;;;;;;;;;;;;",
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122093e6428b64f142bd77ba16a264b17d3b5ee47e6238e5a4fb39bb55575ec91a8664736f6c63430008140033",
+    "sourceMap": "0:221:18:-:0;;;;;;;;;;;;;;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x6080604052600080fdfea26469706673582212200fe502d1967a668bbdad10d0d961fcd8e872ee644739c20edb5fa608dcfdadb764736f6c63430008140033",
-    "sourceMap": "98:298:18:-:0;;;;;",
+    "object": "0x6080604052600080fdfea264697066735822122093e6428b64f142bd77ba16a264b17d3b5ee47e6238e5a4fb39bb55575ec91a8664736f6c63430008140033",
+    "sourceMap": "0:221:18:-:0;;;;;",
     "linkReferences": {}
   },
   "methodIdentifiers": {},
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Example.sol\":\"Example\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"lib/forge-std/src/console.sol\":{\"keccak256\":\"0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70\",\"dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec\"]},\"src/Example.sol\":{\"keccak256\":\"0xd9213681ac0e6a3760b0ea71a57dbbf7caa1632d23171cc770d4898081e6b7cb\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://aa8b0833f836be1e4891e18ea395522ea1ccfede6ea2a0225c1c938b0b51c253\",\"dweb:/ipfs/QmZcKHZDCMbXWMFzhQQp2ELR5Sx1VGpDUF7JE1hW9Cq82y\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Example.sol\":\"Example\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Example.sol\":{\"keccak256\":\"0xd7d876b469c52d8c3aa8edbfc628b0b7870071b11e1d728045dad34eba48ef3d\",\"urls\":[\"bzz-raw://436d46e1b580b8956e486a504c6cd5829ac1d8341fff80524cb93b7e596a6a4d\",\"dweb:/ipfs/Qmbcjy57jpuzdXs888KvD67wgYGVsWDUhZTcr3hqDweguw\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.20+commit.a1b79de6"
@@ -48,167 +48,43 @@
       "libraries": {}
     },
     "sources": {
-      "lib/forge-std/src/console.sol": {
-        "keccak256": "0x91d5413c2434ca58fd278b6e1e79fd98d10c83931cc2596a6038eee4daeb34ba",
-        "urls": [
-          "bzz-raw://91ccea707361e48b9b7a161fe81f496b9932bc471e9c4e4e1e9c283f2453cc70",
-          "dweb:/ipfs/QmcB66sZhQ6Kz7MUHcLE78YXRUZxoZnnxZjN6yATsbB2ec"
-        ],
-        "license": "MIT"
-      },
       "src/Example.sol": {
-        "keccak256": "0xd9213681ac0e6a3760b0ea71a57dbbf7caa1632d23171cc770d4898081e6b7cb",
+        "keccak256": "0xd7d876b469c52d8c3aa8edbfc628b0b7870071b11e1d728045dad34eba48ef3d",
         "urls": [
-          "bzz-raw://aa8b0833f836be1e4891e18ea395522ea1ccfede6ea2a0225c1c938b0b51c253",
-          "dweb:/ipfs/QmZcKHZDCMbXWMFzhQQp2ELR5Sx1VGpDUF7JE1hW9Cq82y"
+          "bzz-raw://436d46e1b580b8956e486a504c6cd5829ac1d8341fff80524cb93b7e596a6a4d",
+          "dweb:/ipfs/Qmbcjy57jpuzdXs888KvD67wgYGVsWDUhZTcr3hqDweguw"
         ],
-        "license": "UNLICENSED"
+        "license": null
       }
     },
     "version": 1
   },
   "ast": {
     "absolutePath": "src/Example.sol",
-    "id": 42883,
+    "id": 42863,
     "exportedSymbols": {
       "Example": [
-        42882
-      ],
-      "console": [
-        21489
+        42862
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "39:358:18",
+    "src": "0:222:18",
     "nodes": [
       {
-        "id": 42854,
-        "nodeType": "PragmaDirective",
-        "src": "39:24:18",
-        "nodes": [],
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".20"
-        ]
-      },
-      {
-        "id": 42855,
-        "nodeType": "ImportDirective",
-        "src": "65:31:18",
-        "nodes": [],
-        "absolutePath": "lib/forge-std/src/console.sol",
-        "file": "forge-std/console.sol",
-        "nameLocation": "-1:-1:-1",
-        "scope": 42883,
-        "sourceUnit": 21490,
-        "symbolAliases": [],
-        "unitAlias": ""
-      },
-      {
-        "id": 42882,
+        "id": 42862,
         "nodeType": "ContractDefinition",
-        "src": "98:298:18",
+        "src": "0:221:18",
         "nodes": [
           {
-            "id": 42858,
+            "id": 42855,
             "nodeType": "VariableDeclaration",
-            "src": "121:13:18",
+            "src": "119:6:18",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
-            "name": "a",
-            "nameLocation": "127:1:18",
-            "scope": 42882,
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_uint8",
-              "typeString": "uint8"
-            },
-            "typeName": {
-              "id": 42856,
-              "name": "uint8",
-              "nodeType": "ElementaryTypeName",
-              "src": "121:5:18",
-              "typeDescriptions": {
-                "typeIdentifier": "t_uint8",
-                "typeString": "uint8"
-              }
-            },
-            "value": {
-              "hexValue": "323535",
-              "id": 42857,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "131:3:18",
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_255_by_1",
-                "typeString": "int_const 255"
-              },
-              "value": "255"
-            },
-            "visibility": "internal"
-          },
-          {
-            "id": 42861,
-            "nodeType": "VariableDeclaration",
-            "src": "152:14:18",
-            "nodes": [],
-            "constant": false,
-            "mutability": "mutable",
-            "name": "b",
-            "nameLocation": "160:1:18",
-            "scope": 42882,
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_uint256",
-              "typeString": "uint256"
-            },
-            "typeName": {
-              "id": 42859,
-              "name": "uint256",
-              "nodeType": "ElementaryTypeName",
-              "src": "152:7:18",
-              "typeDescriptions": {
-                "typeIdentifier": "t_uint256",
-                "typeString": "uint256"
-              }
-            },
-            "value": {
-              "hexValue": "3232",
-              "id": 42860,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "164:2:18",
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_22_by_1",
-                "typeString": "int_const 22"
-              },
-              "value": "22"
-            },
-            "visibility": "internal"
-          },
-          {
-            "id": 42864,
-            "nodeType": "VariableDeclaration",
-            "src": "188:12:18",
-            "nodes": [],
-            "constant": false,
-            "mutability": "mutable",
-            "name": "c",
-            "nameLocation": "193:1:18",
-            "scope": 42882,
+            "name": "x",
+            "nameLocation": "124:1:18",
+            "scope": 42862,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -216,43 +92,55 @@
               "typeString": "int8"
             },
             "typeName": {
-              "id": 42862,
+              "id": 42854,
               "name": "int8",
               "nodeType": "ElementaryTypeName",
-              "src": "188:4:18",
+              "src": "119:4:18",
               "typeDescriptions": {
                 "typeIdentifier": "t_int8",
                 "typeString": "int8"
               }
             },
-            "value": {
-              "hexValue": "313237",
-              "id": 42863,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "number",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "197:3:18",
+            "visibility": "internal"
+          },
+          {
+            "id": 42857,
+            "nodeType": "VariableDeclaration",
+            "src": "146:7:18",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "y",
+            "nameLocation": "152:1:18",
+            "scope": 42862,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int16",
+              "typeString": "int16"
+            },
+            "typeName": {
+              "id": 42856,
+              "name": "int16",
+              "nodeType": "ElementaryTypeName",
+              "src": "146:5:18",
               "typeDescriptions": {
-                "typeIdentifier": "t_rational_127_by_1",
-                "typeString": "int_const 127"
-              },
-              "value": "127"
+                "typeIdentifier": "t_int16",
+                "typeString": "int16"
+              }
             },
             "visibility": "internal"
           },
           {
-            "id": 42868,
+            "id": 42859,
             "nodeType": "VariableDeclaration",
-            "src": "221:14:18",
+            "src": "194:9:18",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
-            "name": "d",
-            "nameLocation": "228:1:18",
-            "scope": 42882,
+            "name": "z1",
+            "nameLocation": "201:2:18",
+            "scope": 42862,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -260,193 +148,41 @@
               "typeString": "int256"
             },
             "typeName": {
-              "id": 42865,
+              "id": 42858,
               "name": "int256",
               "nodeType": "ElementaryTypeName",
-              "src": "221:6:18",
+              "src": "194:6:18",
               "typeDescriptions": {
                 "typeIdentifier": "t_int256",
                 "typeString": "int256"
               }
             },
-            "value": {
-              "id": 42867,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "lValueRequested": false,
-              "nodeType": "UnaryOperation",
-              "operator": "-",
-              "prefix": true,
-              "src": "232:3:18",
-              "subExpression": {
-                "hexValue": "3535",
-                "id": 42866,
-                "isConstant": false,
-                "isLValue": false,
-                "isPure": true,
-                "kind": "number",
-                "lValueRequested": false,
-                "nodeType": "Literal",
-                "src": "233:2:18",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_rational_55_by_1",
-                  "typeString": "int_const 55"
-                },
-                "value": "55"
-              },
-              "typeDescriptions": {
-                "typeIdentifier": "t_rational_minus_55_by_1",
-                "typeString": "int_const -55"
-              }
-            },
             "visibility": "internal"
           },
           {
-            "id": 42871,
+            "id": 42861,
             "nodeType": "VariableDeclaration",
-            "src": "259:23:18",
+            "src": "209:9:18",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
-            "name": "myCondition",
-            "nameLocation": "264:11:18",
-            "scope": 42882,
+            "name": "z2",
+            "nameLocation": "216:2:18",
+            "scope": 42862,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_bool",
-              "typeString": "bool"
+              "typeIdentifier": "t_int256",
+              "typeString": "int256"
             },
             "typeName": {
-              "id": 42869,
-              "name": "bool",
+              "id": 42860,
+              "name": "int256",
               "nodeType": "ElementaryTypeName",
-              "src": "259:4:18",
+              "src": "209:6:18",
               "typeDescriptions": {
-                "typeIdentifier": "t_bool",
-                "typeString": "bool"
-              }
-            },
-            "value": {
-              "hexValue": "74727565",
-              "id": 42870,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "kind": "bool",
-              "lValueRequested": false,
-              "nodeType": "Literal",
-              "src": "278:4:18",
-              "typeDescriptions": {
-                "typeIdentifier": "t_bool",
-                "typeString": "bool"
-              },
-              "value": "true"
-            },
-            "visibility": "internal"
-          },
-          {
-            "id": 42876,
-            "nodeType": "EnumDefinition",
-            "src": "289:73:18",
-            "nodes": [],
-            "canonicalName": "Example.Choice",
-            "members": [
-              {
-                "id": 42872,
-                "name": "Up",
-                "nameLocation": "311:2:18",
-                "nodeType": "EnumValue",
-                "src": "311:2:18"
-              },
-              {
-                "id": 42873,
-                "name": "Down",
-                "nameLocation": "323:4:18",
-                "nodeType": "EnumValue",
-                "src": "323:4:18"
-              },
-              {
-                "id": 42874,
-                "name": "Left",
-                "nameLocation": "337:4:18",
-                "nodeType": "EnumValue",
-                "src": "337:4:18"
-              },
-              {
-                "id": 42875,
-                "name": "Right",
-                "nameLocation": "351:5:18",
-                "nodeType": "EnumValue",
-                "src": "351:5:18"
-              }
-            ],
-            "name": "Choice",
-            "nameLocation": "294:6:18"
-          },
-          {
-            "id": 42881,
-            "nodeType": "VariableDeclaration",
-            "src": "368:25:18",
-            "nodes": [],
-            "constant": false,
-            "mutability": "mutable",
-            "name": "choice",
-            "nameLocation": "375:6:18",
-            "scope": 42882,
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_enum$_Choice_$42876",
-              "typeString": "enum Example.Choice"
-            },
-            "typeName": {
-              "id": 42878,
-              "nodeType": "UserDefinedTypeName",
-              "pathNode": {
-                "id": 42877,
-                "name": "Choice",
-                "nameLocations": [
-                  "368:6:18"
-                ],
-                "nodeType": "IdentifierPath",
-                "referencedDeclaration": 42876,
-                "src": "368:6:18"
-              },
-              "referencedDeclaration": 42876,
-              "src": "368:6:18",
-              "typeDescriptions": {
-                "typeIdentifier": "t_enum$_Choice_$42876",
-                "typeString": "enum Example.Choice"
-              }
-            },
-            "value": {
-              "expression": {
-                "id": 42879,
-                "name": "Choice",
-                "nodeType": "Identifier",
-                "overloadedDeclarations": [],
-                "referencedDeclaration": 42876,
-                "src": "384:6:18",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_type$_t_enum$_Choice_$42876_$",
-                  "typeString": "type(enum Example.Choice)"
-                }
-              },
-              "id": 42880,
-              "isConstant": false,
-              "isLValue": false,
-              "isPure": true,
-              "lValueRequested": false,
-              "memberLocation": "391:2:18",
-              "memberName": "Up",
-              "nodeType": "MemberAccess",
-              "referencedDeclaration": 42872,
-              "src": "384:9:18",
-              "typeDescriptions": {
-                "typeIdentifier": "t_enum$_Choice_$42876",
-                "typeString": "enum Example.Choice"
+                "typeIdentifier": "t_int256",
+                "typeString": "int256"
               }
             },
             "visibility": "internal"
@@ -459,16 +195,15 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          42882
+          42862
         ],
         "name": "Example",
-        "nameLocation": "107:7:18",
-        "scope": 42883,
+        "nameLocation": "9:7:18",
+        "scope": 42863,
         "usedErrors": [],
         "usedEvents": []
       }
-    ],
-    "license": "UNLICENSED"
+    ]
   },
   "id": 18
 }

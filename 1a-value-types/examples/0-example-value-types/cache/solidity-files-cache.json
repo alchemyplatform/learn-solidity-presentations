@@ -785,8 +785,8 @@
       }
     },
     "src/Example.sol": {
-      "lastModificationDate": 1696349558882,
-      "contentHash": "0cc0f0db3f55c601a1c38b1f94695399",
+      "lastModificationDate": 1696352391087,
+      "contentHash": "e5a4b3b980f53d4f780f3c4b44d87b85",
       "sourceName": "src/Example.sol",
       "solcConfig": {
         "settings": {
@@ -816,10 +816,8 @@
           "libraries": {}
         }
       },
-      "imports": [
-        "lib/forge-std/src/console.sol"
-      ],
-      "versionRequirement": "^0.8.20",
+      "imports": [],
+      "versionRequirement": null,
       "artifacts": {
         "Example": {
           "0.8.20+commit.a1b79de6.Darwin.appleclang": "Example.sol/Example.json"
@@ -827,7 +825,7 @@
       }
     },
     "test/Example.t.sol": {
-      "lastModificationDate": 1696350452474,
+      "lastModificationDate": 1696350458511,
       "contentHash": "734d83312dbf1b6dd1ec3e85d6591bba",
       "sourceName": "test/Example.t.sol",
       "solcConfig": {
