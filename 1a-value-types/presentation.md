@@ -19,7 +19,7 @@ contract Example {
 
 ---
 
-**Unsigned Integer**: A whole number without a sign (not positive or negative)
+**Unsigned Integer**: A number without a sign (not positive or negative)
 
 ```js
 contract Example {
