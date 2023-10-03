@@ -785,8 +785,8 @@
       }
     },
     "src/Example.sol": {
-      "lastModificationDate": 1692632580176,
-      "contentHash": "61d288ca30f89e887916d1b05ea9e417",
+      "lastModificationDate": 1696349558882,
+      "contentHash": "0cc0f0db3f55c601a1c38b1f94695399",
       "sourceName": "src/Example.sol",
       "solcConfig": {
         "settings": {
@@ -827,8 +827,8 @@
       }
     },
     "test/Example.t.sol": {
-      "lastModificationDate": 1692632622302,
-      "contentHash": "744bbea985d6068810cef15c19d03fe3",
+      "lastModificationDate": 1696350452474,
+      "contentHash": "734d83312dbf1b6dd1ec3e85d6591bba",
       "sourceName": "test/Example.t.sol",
       "solcConfig": {
         "settings": {
