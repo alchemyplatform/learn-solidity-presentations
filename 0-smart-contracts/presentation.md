@@ -26,8 +26,8 @@ contract Agreement {
 ## Deploying a Contract
 
 1. ⚙️ compile your **solidity** to bytecode
-2. ✉️ send a transaction containing the bytecode
-3. 🏡 the **EVM** calculates an address for your new contract
+2. ✉️ send a transaction containing the bytecode to an EVM node
+3. 🏡 the node calculates an address for your new contract
 
 ---
 
